@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="keahlian">
+        <item> Free Kick Specialist </item>
+        <item> Penalty Kick Specialist </item>
+        <item> Header Specialist </item>
+        <item> Playmaker </item>
+        <item> Dribbler </item>
+        <item> Solid Rock </item>
+        <item> Saver </item>
+    </string-array>
+</resources>
