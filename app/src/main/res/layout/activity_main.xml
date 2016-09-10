@@ -42,7 +42,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:hint="Nama" />
+                android:hint="Nama"
+                android:textColor="@color/colorPrimary"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -57,7 +60,10 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Umur"
-                android:inputType="numberSigned" />
+                android:inputType="numberSigned"
+                android:textColor="@color/colorPrimary"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -70,7 +76,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:hint="Asal" />
+                android:hint="Asal"
+                android:textColor="@color/colorPrimary"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -83,7 +92,8 @@
                 android:id="@+id/textViewPosisi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Posisi Bermain :" />
+                android:text="Posisi Bermain :"
+                android:textColor="@color/colorPrimary" />
 
             <CheckBox
                 android:id="@+id/checkBoxKiper"
@@ -132,7 +142,8 @@
                 android:id="@+id/textViewKaki"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kaki Utama :" />
+                android:text="Kaki Utama :"
+                android:textColor="@color/colorPrimary" />
 
         <LinearLayout
             android:layout_width="291dp"
@@ -169,7 +180,8 @@
             android:id="@+id/textViewKeahlian"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Keahlian Khusus :" />
+            android:text="Keahlian Khusus :"
+            android:textColor="@color/colorPrimary" />
 
         <Spinner
             android:id="@+id/spinnerKeahlian"
@@ -183,7 +195,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/bgbtn"
-            android:text="DAFTAR" />
+            android:text="DAFTAR"
+            android:textColor="@color/primary_text_default_material_dark" />
 
         <TextView
             android:id="@+id/textView"
@@ -198,7 +211,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:background="@color/colorPrimary" />
+            android:background="@color/colorPrimary"
+            android:textColor="@color/primary_text_default_material_dark" />
 
     </LinearLayout>
 </ScrollView>

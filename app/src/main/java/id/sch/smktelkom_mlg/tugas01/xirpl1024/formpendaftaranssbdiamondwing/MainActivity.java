@@ -16,9 +16,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
     TextView tvhasil, tvposisi;
     int nPosisi;
-    EditText etnama;
-    EditText etumur;
-    EditText etasal;
+    EditText etnama, etumur, etasal;
     CheckBox cbkiper, cbbek, cbgelandang, cbpenyerang;
     RadioButton rbkanan, rbkiri;
     RadioGroup rgkaki;
@@ -61,7 +59,8 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     private void doProccess() {
         if (isValid()) {
             String nama = etnama.getText().toString();
-            String umur = etumur.getText().toString();
+            // String umur = etumur.getText().toString();
+            int umur = Integer.parseInt(etumur.getText().toString());
             String asal = etasal.getText().toString();
             String hasil = "\n Posisi                      : ";
             if (cbkiper.isChecked()) hasil += cbkiper.getText() + " ";
@@ -95,6 +94,8 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         String umur = etumur.getText().toString();
         String asal = etasal.getText().toString();
 
+        int umurint = 0;
+
         if (nama.isEmpty()) {
             etnama.setError("Nama Belum diisikan");
             valid = false;
@@ -106,7 +107,20 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         }
 
         if (umur.isEmpty()) {
+            etumur.setError("Nama Belum diisikan");
+            valid = false;
+        } else {
+            umurint = Integer.parseInt(umur);
+        }
+
+        if (umurint == 0) {
             etumur.setError("Umur belum diisikan");
+            valid = false;
+        } else if (umurint < 7) {
+            etumur.setError("Anda minimal harus berusia 7 tahun");
+            valid = false;
+        } else if (umurint > 24) {
+            etumur.setError("Maksimal, umur anda adalah 24 tahun untuk mengikuti SSB");
             valid = false;
         } else {
             etumur.setError(null);
