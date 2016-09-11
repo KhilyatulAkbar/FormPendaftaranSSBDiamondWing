@@ -4,7 +4,7 @@
 Aplikasi ini merupakan aplikasi yang digunakan untuk pendaftaran yang berifat seperti formulir, untuk mendaftar pada Sekolah Sepak Bola (SSB) Diamond Wing. Untuk mendaftar kita diharuskan mengisikan isian-isian seperti nama, asal, kaki utama, posisi, penyerang dll.
 
 Didalam aplikasi ini terdapat :
-* 8 Text View
+* 5 Text View
 * 1 Image View
 * 3 Edit Text (1 NumberSigned)
 * 1 Button
