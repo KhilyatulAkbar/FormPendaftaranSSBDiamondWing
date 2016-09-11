@@ -23,5 +23,14 @@ ScreenShot :
 ![ssxirpl124 6](https://cloud.githubusercontent.com/assets/22127632/18416290/71bf1d30-783a-11e6-9d30-920f625eac69.png)
 ![ssxirpl124 7](https://cloud.githubusercontent.com/assets/22127632/18416291/71e066f2-783a-11e6-80eb-a5e9213b816d.png)
 
-Seperti yang Dapat dilihat dari ScreenShot diatas, terdapat validasi-validasi untuk Nama, Umur, dan Asal. Validasi pada nama terjadi saat user belum mengisikan atau hanya mengisikan 2 karakter saja. Validasi pada Umur terjadi bila belum diisikan, umur kurang dari 7 tahun, dan umur lebih dari 24 tahun. validasi pada asal terjadi jika asal kota belum diisikan dan dibawah dari 3 karakter.
+Seperti yang Dapat dilihat dari ScreenShot diatas, terdapat validasi-validasi untuk Nama, Umur, dan Asal. Validasi pada nama terjadi saat user belum mengisikan atau hanya mengisikan 2 karakter saja. Validasi pada Umur terjadi bila belum diisikan, umur kurang dari 7 tahun, dan umur lebih dari 24 tahun. validasi pada asal terjadi jika asal kota belum diisikan dan dibawah dari 3 karakter. dan hasil dari inputan akan ditampilkan pada textview dengan menggunakan setText.
+
+link apk :
+https://drive.google.com/file/d/0ByO8KjXfwr_fem1zQ2RmZmhRLXM/view?usp=sharing
+
+
+* Nama   : Nur Muhammad Khilyatul Akbar
+* Kelas  : XI RPL 1
+* Nosen  : 24
+
 
